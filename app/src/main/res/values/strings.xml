@@ -1,0 +1,108 @@
+<resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_done">Done</string>
+    <string name="Rs">5000 \u20B9</string>
+
+    <!-- Login and Register -->
+    <string name="app_name">Pocketbook</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="text_logout">Logout</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Passwords Do Not Match</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Pocketbook</string>
+
+    <!-- Receipt fields -->
+    <string name="name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="date">Purchase Date</string>
+    <string name="store">Store</string>
+    <string name="category">Category</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="payment_by">Payment By</string>
+    <string name="comment">Comment</string>
+    <string name="error_message_product_name">Enter Product Name</string>
+    <string name="error_message_product_price">Enter Product Price</string>
+
+    <!-- categories -->
+    <string name="others">Others</string>
+    <string name="garments">Garments</string>
+    <string name="footwear">Footwear</string>
+    <string name="grocery">Grocery</string>
+    <string name="accessories">Accessories</string>
+    <string name="beauty">Beauty and Hygiene</string>
+    <string name="health">Health</string>
+    <string name="education">Education</string>
+    <string name="stationery">Stationery</string>
+    <string name="hotel">Hotel</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="travel">Travel</string>
+    <string name="trip">Trip</string>
+    <string name="home">Home Furnishing</string>
+    <string name="electronics">Electronics</string>
+    <string name="subscriptions">Subscriptions</string>
+
+    <!-- payment methods -->
+    <string name="cash">Cash</string>
+    <string name="credit">Credit Card</string>
+    <string name="debit">Debit Card</string>
+    <string name="e_wallets">E-Wallets</string>
+
+    <!--categories string array -->
+    <string-array name="categories">
+        <item>Others</item>
+        <item>Accessories</item>
+        <item>Beauty and Hygiene</item>
+        <item>Education</item>
+        <item>Electronics</item>
+        <item>Entertainment</item>
+        <item>Footwear</item>
+        <item>Garments</item>
+        <item>Grocery</item>
+        <item>Health</item>
+        <item>Home Furnishing</item>
+        <item>Hotel</item>
+        <item>Stationery</item>
+        <item>Subscriptions</item>
+        <item>Travel</item>
+        <item>Trip</item>
+    </string-array>
+
+    <!-- payment methods string array -->
+    <string-array name="paymentMethods">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Debit Card</item>
+        <item>E-Wallets</item>
+    </string-array>
+    <string name="title_activity_subscriptions">Subscriptions</string>
+    <string name="title_activity_graphs">Graphs</string>
+    <string name="title_activity_main">Receipts</string>
+    <string name="title_activity_yearly_graph">YearlyGraph</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="tab_text_1">OVERALL</string>
+    <string name="tab_text_2">MONTHLY</string>
+    <string name="tab_text_3">YEARLY</string>
+</resources>

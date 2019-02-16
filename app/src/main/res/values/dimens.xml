@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Padding -->
+    <dimen name="padding_tiny">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_larger">24dp</dimen>
+
+    <!-- Material Styling Defaults -->
+    <dimen name="margin_tiniest">4dp</dimen>
+    <dimen name="margin_tiny">8dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_larger">24dp</dimen>
+
+    <dimen name="default_input_row_size">40dp</dimen>
+
+    <!-- Cards -->
+    <dimen name="card_divider_padding">6dp</dimen>
+    <dimen name="card_price_size">24sp</dimen>
+    <dimen name="card_name_size">18sp</dimen>
+    <dimen name="card_date_size">14sp</dimen>
+    <dimen name="card_name_date_separator">2dp</dimen>
+    <dimen name="card_name_date_margin">16dp</dimen>
+    <dimen name="card_padding">2dp</dimen>
+    <dimen name="card_thumbnail_margins">4dp</dimen>
+    <dimen name="card_corner_radius">2dp</dimen>
+    <dimen name="card_image_size">80dp</dimen>
+    <dimen name="card_image_padding">8dp</dimen>
+
+    <!--Material Font Sizes-->
+    <dimen name="font_caption">12sp</dimen>
+    <dimen name="font_subhead">16sp</dimen>
+    <dimen name="font_title">20sp</dimen>
+    <dimen name="font_headline">24sp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+</resources>

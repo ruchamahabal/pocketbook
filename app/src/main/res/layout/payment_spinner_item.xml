@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/payment_method_image"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:layout_marginLeft="@dimen/margin_tiny"
+        android:layout_marginBottom="@dimen/margin_tiny"
+        android:layout_marginRight="@dimen/margin_tiny"
+        app:srcCompat="@drawable/ic_payment_method_cash"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/payment_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cash"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/payment_method_image"
+        android:layout_toRightOf="@+id/payment_method_image"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin_tiniest"
+        />
+</RelativeLayout>

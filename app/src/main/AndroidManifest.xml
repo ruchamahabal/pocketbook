@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rucha.pocketbook">
+
+    <!-- application declares use of camera features -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- permission to use device camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/text_login"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddReceipt"
+            android:label="Add Receipt" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/text_register"
+            android:theme="@style/AppTheme" />
+        <!-- <activity android:name=".SplashScreen"></activity> -->
+        <activity
+            android:name=".ReceiptDetailsActivity"
+            android:label="Receipt Details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpdateReceipt"
+            android:label="Update Receipt" />
+        <activity
+            android:name=".SubscriptionsActivity"
+            android:label="@string/title_activity_subscriptions"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GraphsActivity"
+            android:label="@string/title_activity_graphs"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:label="@string/title_activity_statistics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TextOnlyReceipt" />
+    </application>
+
+</manifest>

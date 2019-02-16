@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="60sp"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_receipts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+        <LinearLayout
+        android:id="@+id/ll_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="190dp"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camera"
+                android:background="@color/colorToast"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:elevation="6dp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_camera"
+                android:elevation="6dp"
+                app:backgroundTint="@color/fabCamera"
+                app:pressedTranslationZ="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:id="@+id/ll_gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="135dp"
+        android:layout_gravity="bottom|end"
+        android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gallery"
+                android:background="@color/colorToast"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:elevation="6dp"/>
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_gallery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_gallery"
+                android:elevation="6dp"
+                app:backgroundTint="@color/colorAccent"
+                app:pressedTranslationZ="12dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_text_only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="80dp"
+            android:layout_gravity="bottom|end"
+            android:visibility="invisible">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text Only"
+                android:background="@color/colorToast"
+                android:textColor="@color/colorWhite"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:elevation="6dp" />
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_text_only"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_text_only"
+                android:elevation="6dp"
+                app:backgroundTint="@color/colorOrange"
+                app:pressedTranslationZ="12dp" />
+        </LinearLayout>
+        <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab_plus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_action_plus"
+                android:elevation="6dp"
+                app:backgroundTint="@color/colorLightBlue"
+                app:pressedTranslationZ="12dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

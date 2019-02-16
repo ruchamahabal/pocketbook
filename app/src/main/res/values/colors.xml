@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorOrange">#FF5419</color>
+    <color name="colorRed">#EE121E</color>
+    <color name="fabCamera">#28A745</color>
+    <color name="colorLightBlue">#2196F3</color>
+    <color name="colorDarkBlue">#03002E</color>
+    <color name="colorToast">#4A4A4A</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="black">#000000</color>
+    <!--<color name="colorPrimary">#2196F3</color>-->
+    <!--<color name="colorPrimaryDark">#00A9AE</color>-->
+    <!--<color name="colorAccent">#FFFFFF</color>-->
+    <!--<color name="colorBackground">#413e4f</color>-->
+    <!--<color name="colorText">#FFFFFF</color>-->
+    <!--<color name="colorTextHint">#51d8c7</color>-->
+
+    <!-- Palette for lists and cards -->
+    <color name="card_background">#292929</color>
+    <color name="selected_card_background">#424242</color>
+    <color name="card_image_background">#303030</color>
+    <color name="card_image_tint">#8A8A8A</color>
+
+    <!--Palette for graphs-->
+    <color name="graph_1">#3b9ec2</color>
+    <color name="graph_2">#31a1a1</color>
+    <color name="graph_3">#3b78c2</color>
+    <color name="graph_4">#223ac9</color>
+    <color name="graph_5">#663bc2</color>
+    <color name="graph_6">#903bc2</color>
+    <color name="graph_7">#604c86</color>
+
+    <!-- Palette for Core App (Material Palette) -->
+    <color name="smart_receipts_colorPrimary">#4527a0</color>
+    <color name="smart_receipts_colorPrimaryDark">#311b92</color>
+    <color name="smart_receipts_colorPrimaryDark_disabled">#8A311b92</color>
+    <color name="smart_receipts_colorPrimaryDark_pressed">#200a81</color>
+    <color name="smart_receipts_colorAccent">#42a5f5</color>
+    <color name="smart_receipts_ripple_light">#44FFFFFF</color>
+    <color name="smart_receipts_ripple_dark">#44000000</color>
+    <color name="smart_receipts_colorSuccess">#2e7d32</color>
+    <color name="smart_receipts_colorError">#c62828</color>
+    <color name="smart_receipts_colorError_pressed">#b71c1c</color>
+    <color name="text_primary_color">#DFFFFFFF</color>
+    <color name="text_secondary_color">#8AFFFFFF</color>
+    <color name="accent_text_primary_color">@color/text_primary_color</color>
+    <color name="accent_text_secondary_color">@color/text_secondary_color</color>
+    <color name="fab_transparency_mask">#40FFFFFF</color>
+    <color name="window_background_color">#0B0114</color>
+    <color name="transparent_overlay">#66000000</color>
+
+    <!--palette for my graphs-->
+    <color name="c1">#3F51B5</color>
+    <color name="c2">#00BCD4</color>
+    <color name="c3">#E91E63</color>
+    <color name="c4">#9C27B0</color>
+    <color name="c5">#FFC107</color>
+    <color name="c6">#009688</color>
+    <color name="c7">#8BC34A</color>
+    <color name="c8">#CDDC39</color>
+    <color name="c9">#F44336</color>
+    <color name="c10">#FF5722</color>
+    <color name="c11">#E040FB</color>
+    <color name="c12">#F16766</color>
+    <color name="c13">#DF1D5A</color>
+    <color name="c14">#571845</color>
+    <color name="c15">#6082B6</color>
+    <color name="c16">#673AB7</color>
+
+</resources>
