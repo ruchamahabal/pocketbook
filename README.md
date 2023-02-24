@@ -32,4 +32,6 @@ Pocketbook also gives you a summary of your expenses based on the categories of 
 
 ## Demo
 
-<video src="pocketbook_app_rec.mp4" controls="controls" style="max-width: 500px;"></video>
+https://user-images.githubusercontent.com/24353136/221268355-ee342c56-d4f6-4241-ac33-c5743000cb43.mp4
+
+
